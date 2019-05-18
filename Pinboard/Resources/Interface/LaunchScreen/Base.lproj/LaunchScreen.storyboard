@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OZD-7J-rsy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Bold.otf">
+            <string>SFProText-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8Ar-Ju-dxp">
+            <objects>
+                <viewController id="OZD-7J-rsy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Wd-LS-BTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_white" translatesAutoresizingMaskIntoConstraints="NO" id="6b5-3D-wkJ">
+                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="UZx-XV-f4s"/>
+                                    <constraint firstAttribute="width" constant="100" id="mEU-fI-4Cc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO PINBOARD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMh-Et-uX7">
+                                <rect key="frame" x="85" y="406.5" width="205" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="XNR-xW-cAq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882352939999999" green="0.1176470588" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XMh-Et-uX7" firstAttribute="centerX" secondItem="6Wd-LS-BTg" secondAttribute="centerX" id="JG1-tu-8V7"/>
+                            <constraint firstItem="6b5-3D-wkJ" firstAttribute="centerX" secondItem="6Wd-LS-BTg" secondAttribute="centerX" id="eHT-QH-hyr"/>
+                            <constraint firstItem="6b5-3D-wkJ" firstAttribute="centerY" secondItem="6Wd-LS-BTg" secondAttribute="centerY" id="pv9-69-AEq"/>
+                            <constraint firstItem="XMh-Et-uX7" firstAttribute="top" secondItem="6b5-3D-wkJ" secondAttribute="bottom" constant="23" id="umZ-o3-M8Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Qf-j8-TaU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYe-sv-EL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_white" width="409.60000610351562" height="409.60000610351562"/>
+    </resources>
+</document>

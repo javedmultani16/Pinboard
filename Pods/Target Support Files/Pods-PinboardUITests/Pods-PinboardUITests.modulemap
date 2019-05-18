@@ -1,0 +1,6 @@
+framework module Pods_PinboardUITests {
+  umbrella header "Pods-PinboardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
